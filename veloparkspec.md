@@ -2,6 +2,7 @@
 There is a post-Olympic cycling legacy, including a velodrome, a road circuit, a BMX track and off-road trails, opening to the public during 2014. The Velopark Supporters League (VPSL) is the users' group for these facilities.
 The VPSL exists to help to promote events, primarily races, initially on the road circuit, and to help riders to enter the events. This will be done largely via a VPSL web presence.
 VPSL is independent of the Velopark's owners and administrators; it is an informal group run by event organisers and participants.
+
 # Overview of requirements for web pages
 The job is to manage events at the Velopark.  VPSL will not be the only organisation promoting events there, but we do want to provide a comprehensive management tool for those events that we do manage.  We may need to interface to the Velopark systems.
 * http://www.visitleevalley.org.uk/en/content/cms/london2012/velo-park/
@@ -17,7 +18,9 @@ And the features we need include:
 3. Riders to be able to enter events, including paying entry fees, and to track their results.
 3. Authorised people to be able to publish articles (perhaps in a blog style)
 4. Discussion area to exist, rather like a Facebook group or an older-style bulletin board like PHPBB.
+
 # Details
+
 ## Supporters League Number
 In any bike race, the riders have a race number, issued by the race organiser.  What we hope to do is to assign to each rider a unique VPSL number that can be used in all races, and is a clear way of identifying the rider to the organiser without any more details being entered.
 So, when a rider or organiser signs up, the system will issue a unique Supporters League Number (SLN).  To avoid 'special' or 'unlucky' numbers:
@@ -27,6 +30,7 @@ So, when a rider or organiser signs up, the system will issue a unique Supporter
 The system administrator will be able to alter any rider's number to any (unissued) number, including allocating numbers that are not issued automatically.  This is to allow in future the ability to offer memorable numbers to 'celebrity' riders.
 Sign in will be either by email address or SLN.
 If someone is both a rider and an organiser, they will have two separate VPSL IDs and so two SLNs. It's possible for the two IDs to have the same email address; if the user signs on with email, the system will ask which ID they want to use. They will still of course have to enter the appropriate password.
+
 ## Riders' features
 Some features below are labelled optional to make it easy and quick for riders to sign-up, but various of them will be needed when they try to enter events.  The system will prompt for those values at the time, and save them on the rider's database entry.
 1. Required details
