@@ -17,7 +17,7 @@ And the features we need include:
 3. Riders to be able to enter events, including paying entry fees, and to track their results.
 3. Authorised people to be able to publish articles (perhaps in a blog style)
 4. Discussion area to exist, rather like a Facebook group or an older-style bulletin board like PHPBB.
-#Details
+# Details
 ## Supporters League Number
 In any bike race, the riders have a race number, issued by the race organiser.  What we hope to do is to assign to each rider a unique VPSL number that can be used in all races, and is a clear way of identifying the rider to the organiser without any more details being entered.
 So, when a rider or organiser signs up, the system will issue a unique Supporters League Number (SLN).  To avoid 'special' or 'unlucky' numbers:
@@ -50,6 +50,7 @@ Some features below are labelled optional to make it easy and quick for riders t
   * phone number (valid phone number)
   * blood group  (text field, checked as valid)
   * disabilities (text field)
+
 ## Organisers features
 1. Required details
  * email address
@@ -58,12 +59,14 @@ Some features below are labelled optional to make it easy and quick for riders t
 2. Optional details
   * cycling club  (drop down list, but must be able to make new entry too, then added to list, same as for riders)
 ..* bank account number and sort code for entry fees.
+
 ## Races features
 * Governing body (BC, LVRC, TLI, CTT, other)
 * Categories eligible to ride (decided by the organiser), will vary by governing body
 * maximum field size
 * visible by start date, with start sheet and already entered riders listed.  Riders to appear on the start sheet as soon as they enter and pay, of course.
 * Riders are always required to sign-on for a race on paper, so that a sign-on sheet will need to be printed with the appropriate disclaimers on it.  This is to ensure that the organisers have the correct insurance cover.
+
 #Final note
 This is a high-level specification.  On researching how to implement it, you may come across on the one hand, problems, errors and omissions, on the other hand, extra features you may wish to implant. In each case the first point of contact is your Maker's Academy instructor, then back to the author of this spec.
 
